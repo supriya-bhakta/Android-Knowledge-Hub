@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".cardIos">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="#F7F4FA"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple"
+
+            android:text=" Mern Stack Development"
+
+            />
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:layout_marginTop="35dp"
+
+            android:text="MERN Stack is a popular technology stack used to build full-stack web applications. MERN stands for MongoDB, Express.js, React.js, and Node.js. "
+
+            />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginTop="35dp"
+            android:textStyle="bold"
+            android:text=" Technologies:"
+
+            />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:text=" &#8226;  MongoDB \n &#8226;  Express.js\n &#8226; React.js\n &#8226;  Node.js "
+            />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:text=" Advantage Of Mern stack:"
+
+            />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:layout_marginTop="15dp"
+            android:text="&#8226; Uses JavaScript throughout the application&#10;&#8226; Good for full-stack web development&#10;&#8226; Reusable React components&#10;&#8226; Supports REST APIs&#10;&#8226; Large developer community"
+            />
+    </LinearLayout>
+</ScrollView>

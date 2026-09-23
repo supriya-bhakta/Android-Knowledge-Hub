@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cardIos">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="#F7F4FA"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textColor="#673AB7"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:text="Machine Learning" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginTop="35dp"
+        android:text="Machine Learning (ML) is a branch of Artificial Intelligence (AI) that allows computers to learn from data and   make predictions or decisions without being explicitly programmed for every situation." />
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:text=" How Machine Learning Works !" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="normal"
+        android:layout_marginTop="30dp"
+        android:text=" Data \n
+  ↓\n
+Training\n
+  ↓\n
+Machine Learning Model\n
+  ↓\n
+Prediction\n
+  ↓\n
+Result\n " />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:text=" Algoridham Used In Machine Learning !" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:text="1.Linear Regression \n2.Logistic Regression\n3.Decision Tree   \n4.Neural Networks" />
+</LinearLayout>
+</ScrollView>

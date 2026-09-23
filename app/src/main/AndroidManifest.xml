@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.layouts">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Layouts"
+        tools:targetApi="31">
+        <activity
+            android:name=".cardMern"
+            android:exported="false" />
+        <activity
+            android:name=".cardBlock"
+            android:exported="false" />
+        <activity
+            android:name=".cardIos"
+            android:exported="false" />
+        <activity
+            android:name=".cardMl"
+            android:exported="false" />
+        <activity
+            android:name=".cardWeb"
+            android:exported="false" />
+        <activity
+            android:name=".cardAndroid"
+            android:exported="false" />
+        <activity
+            android:name=".CardView_prc2"
+            android:exported="false" />
+        <activity
+            android:name=".Supriya_Hub_Main"
+            android:exported="false" />
+        <activity
+            android:name=".Supriya_Hub"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".webview_prc2"
+            android:exported="false" />
+        <activity
+            android:name=".Intents"
+            android:exported="true" />
+        <activity
+            android:name=".WebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Implicit_Intent"
+            android:exported="false" />
+        <activity
+            android:name=".second_activity1"
+            android:exported="false" />
+        <activity
+            android:name=".Intents_prc1"
+            android:exported="false" />
+        <activity
+            android:name=".Registration_Form"
+            android:exported="false" />
+        <activity
+            android:name=".ScrollView_prc2"
+            android:exported="true" />
+        <activity
+            android:name=".Texbox_Scrollview"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
